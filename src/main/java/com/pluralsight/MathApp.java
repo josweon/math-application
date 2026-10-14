@@ -33,6 +33,36 @@ public class MathApp {
 
         // Question 5:
         System.out.println("\n~~~Question 5~~~");
+        int x1 = 5;
+        int y1 = 10;
+        int x2 = 85;
+        int y2 = 50;
+
+        double distance = Math.hypot(x2 - x1 ,y2 - y1);
+        System.out.println("coord1 = " + "(" + x1 + "," + y1 + ")" + " : coord2 = " + "(" + x2 + "," + y2 + ")");
+        System.out.println("Distance = " + distance);
+
+        // Question 6
+        System.out.println("\n~~~Question 6~~~");
+        float negativeNum = -3.8f;
+        float absoluteVal = Math.abs(negativeNum);
+
+        System.out.println("|" + negativeNum + "|" + " = " + absoluteVal);
+
+        // Question 7
+        System.out.println("\n~~~Question 7~~~");
+        double randomNum = Math.random();
+        System.out.println("Rand = " + randomNum);
+
+        // Question 8
+        System.out.println("\n~~~BONUS: Question 8~~~");
+        int days = 24;
+        int hours = days * 24;
+        int minutes = hours * 60;
+        long milliseconds = minutes * 60 * 1000;
+
+        System.out.println("There are " + minutes + " in " + days + " days.");
+        System.out.println("There are " + milliseconds + " in " + days + " days.");
 
     }
 }
